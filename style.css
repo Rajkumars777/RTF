@@ -1,0 +1,129 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(download1.png);
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #000000;
+}
+.title{
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: #ffffff;
+}
+
+h1{
+  font-family:(--mio-theme-v2-display-xl-font-family);
+  font-size: 6em;
+  text-transform:uppercase;
+}
+h4{
+  margin-top: -67px;
+}
+.content .word {
+  margin-top: 10%;
+  user-select: none;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 18px;
+  margin-right: -18px;
+  word-break: break-all;
+  text-transform: uppercase;
+  color: #5372f0;
+}
+
+.content .details {
+  margin: 25px 0 20px;
+}
+
+.details p {
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.details p b {
+  font-weight: 500;
+  text-align: center;
+}
+
+.content input {
+  align-items: center;
+  width: 40%;
+  margin-left: 29%;
+  height: 50px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #111;
+  color: #000000;
+  transition: border-color 0.3s ease, background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.content input:focus {
+  border-color: #5372f0;
+  background-color: #222;
+  color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content input::placeholder {
+  color: #555;
+}
+
+.content input:focus::placeholder {
+  color: #bbb;
+}
+
+.content .buttons {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons button {
+  align-items: center;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 14px 0;
+  font-size: 16px;
+  border-radius: 48px;
+  width:20%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.buttons button:active {
+  transform: scale(0.97);
+}
+
+.buttons .refresh-word {
+  background: #6c757d;
+}
+
+.buttons .refresh-word:hover {
+  background: #5f666d;
+}
+
+.buttons .check-word {
+  background: #5372f0;
+}
+
+.buttons .check-word:hover {
+  background: #2c52ed;
+}
